@@ -1,0 +1,74 @@
+[
+    {
+        "id":"1",
+        "name": "Pancakes",
+        "type": "breakfast",
+        "price": 8.99,
+        "description": "Fluffy pancakes served with maple syrup and butter.",
+        "image_url": "images/pancakes.jpg"
+    },
+    {
+        "id":"2",
+        "name": "Eggs Benedict",
+        "type": "breakfast",
+        "price": 10.50,
+        "description": "Classic eggs Benedict with poached eggs, Canadian bacon, and hollandaise sauce.",
+        "image_url": "images/egg_benadict.jpg"
+    },
+    {
+        "id":"3",
+        "name": "Avocado Toast",
+        "type": "breakfast",
+        "price": 9.25,
+        "description": "Sliced avocado on whole grain toast, topped with cherry tomatoes and a sprinkle of sea salt.",
+        "image_url": "images/avacado_toast.jpg"
+    },
+    {
+        "id":"4",
+        "name": "Chicken Caesar Salad",
+        "type": "lunch",
+        "price": 12.99,
+        "description": "Crisp romaine lettuce tossed with grilled chicken, parmesan cheese, and Caesar dressing.",
+        "image_url": "images/chicken_ceaser_salad.jpg"
+    },
+    {
+        "id":"5",
+        "name": "Club Sandwich",
+        "type": "lunch",
+        "price": 11.75,
+        "description": "Triple-decker sandwich with turkey, bacon, lettuce, tomato, and mayonnaise on toasted bread.",
+        "image_url": "images/club_sandwitch.jpg"
+    },
+    {
+        "id":"6",
+        "name": "Caprese Panini",
+        "type": "lunch",
+        "price": 9.99,
+        "description": "Fresh mozzarella, ripe tomatoes, and basil pesto pressed between slices of ciabatta bread.",
+        "image_url": "images/Caprese_Panini.jpg"
+    },
+    {
+        "id":"7",
+        "name": "Iced Latte",
+        "type": "drink",
+        "price": 4.50,
+        "description": "Chilled espresso mixed with milk, served over ice.",
+        "image_url": "images/iced_latte.jpg"
+    },
+    {
+        "id":"8",
+        "name": "Freshly Squeezed Orange Juice",
+        "type": "drink",
+        "price": 3.75,
+        "description": "Refreshing orange juice made from freshly squeezed oranges.",
+        "image_url": "images/orange_juice.jpg"
+    },
+    {
+        "id":"9",
+        "name": "Mango Smoothie",
+        "type": "drink",
+        "price": 5.25,
+        "description": "Blended mangoes with yogurt and honey, served cold.",
+        "image_url": "images/mango_smoothie.jpg"
+    }
+]
