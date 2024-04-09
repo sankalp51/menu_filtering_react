@@ -12,7 +12,7 @@ const Nav = () => {
             <menu className="flex space-x-4">
                 <Button
                     className="text-white bg-gray-700 p-4 hover:bg-gray-800 rounded-md"
-                    onClick={() => dispatch(menuActions.filterData("all"))}>
+                    onClick={() => dispatch(menuActions.filterData())}>
                     All
                 </Button>
                 <Button

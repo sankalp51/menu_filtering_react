@@ -6,7 +6,7 @@ import { menuActions } from '../redux/menuSlice';
 const Menu = () => {
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(menuActions.filterData("all"));
+        dispatch(menuActions.filterData());
     }, []);
     const menuItems = useSelector(state => state.menu.filteredItems);
 
