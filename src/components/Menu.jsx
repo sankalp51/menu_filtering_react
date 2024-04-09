@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Card from './Card';
-import { useSelector } from 'react-redux';
-
+import { useSelector, useDispatch } from 'react-redux';
+import { menuActions } from '../redux/menuSlice';
 
 const Menu = () => {
-
-    const menuItems = useSelector(state => state.menu.items);
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(menuActions.filterData("all"));
+    }, []);
+    const menuItems = useSelector(state => state.menu.filteredItems);
 
     return (
         <section className="container mx-auto px-4 py-8 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
